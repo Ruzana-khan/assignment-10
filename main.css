@@ -1,0 +1,40 @@
+body{background-image:url(header1.jpg);}.navbar .navbar-nav .nav-link:hover {
+    color: white;
+  }
+  @media only screen and (min-width: 960px) {
+      .navbar .navbar-nav .nav-link {padding: 1em 0.7em;}.navbar {padding: 0;}.navbar .navbar-brand {padding: 0 0.7em;}.navbar .navbar-nav .nav-link {position: relative;}.navbar .navbar-nav .nav-link::after {position: absolute;bottom: 0;left: 0;right: 0;margin: auto;background-color: white;color: transparent;width: 0%;content: '';height: 3px;transition: all 0.5s;}.navbar .navbar-nav .nav-link:hover::after { width: 100%;}
+    .header{color:white; padding: 150px;} 
+    .outer {
+        margin: 50px;
+      }
+ .button {
+        border: 1px solid white;
+        border-radius: 3px;
+        width: 190px;
+        height: 65px;
+        display: block;
+        background: linear-gradient(to bottom, black 50%, white 50%);
+        background-size: 200% 500%;
+        background-position: top left;
+        transition: all .9s ease-out;
+      }
+      
+      .button:hover {
+        background-position: bottom left;
+        color:white;
+        
+      }
+      
+      .text {
+        text-align: center;
+        font-size: 24px;
+        line-height: 60px; 
+        color: white;
+        transition: all .7s ease-out;
+        display: block;
+      }
+      
+      .text:hover {
+        color: black;  
+      }
+      .header2{background-image: url(2.jpg);background-repeat: no-repeat;background-size: cover; padding:150px;color:white;}
